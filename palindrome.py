@@ -1,3 +1,4 @@
+#palindrome code------------------
 ans = input()
 bfh = input()
 
