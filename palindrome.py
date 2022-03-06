@@ -8,15 +8,3 @@ if(xx==ans):
     print("palindrome")
 else:
   print("not palindroe")
-
-
-
-
-
-
-
-
-
-
-
-  
