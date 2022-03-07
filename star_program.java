@@ -1,16 +1,29 @@
 import java.util.Scanner;
-import java.util.*;
+
 public class star_program {
 
     public static void main(String[] args) {
-       for(int i=0 ; i<5 ; i++){
+      
+      Scanner obj=new Scanner(System.in);
+
+
+      int a=obj.nextInt();
+
+       for(int i=0 ; i<a ; i++){
 
           for(int j=0 ; j<=i ; j++){
 
             System.out.print("*");
 
           }
-          System.out.println();
+          System.out.println(" ");
  }
 }
 }
+
+
+// * 
+// ** 
+// *** 
+// **** 
+// *****
