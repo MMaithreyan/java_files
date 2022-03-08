@@ -4,26 +4,25 @@ public class star_program {
 
     public static void main(String[] args) {
       
-      Scanner obj=new Scanner(System.in);
+      try (Scanner myObj = new Scanner(System.in)) {
+        int a=myObj.nextInt();
 
+         for(int i=0 ; i<a ; i++){
 
-      int a=obj.nextInt();
+            for(int j=0 ; j<=i ; j++){
 
-       for(int i=0 ; i<a ; i++){
+              System.out.print("*");
 
-          for(int j=0 ; j<=i ; j++){
-
-            System.out.print("*");
-
-          }
-          System.out.println(" ");
+            }
+            System.out.println(" ");
  }
+      }
 }
 }
 
 
-// * 
-// ** 
-// *** 
-// **** 
-// *****
+//  * 
+//  ** 
+//  *** 
+//  **** 
+//  *****

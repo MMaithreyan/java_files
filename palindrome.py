@@ -1,6 +1,5 @@
 #palindrome code------------------
 ans = input()
-bfh = input()
 
 xx = ans[::-1]
 

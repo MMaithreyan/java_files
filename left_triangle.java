@@ -2,7 +2,7 @@
 /**
  * right_triangle
  */
-public class right_triangle{
+public class left_triangle{
     public static void main(String[] args) {
         
     
