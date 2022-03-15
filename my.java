@@ -11,7 +11,7 @@ class my{
        for(int i=0;i<=a;i++){
            arr[i]=sc.nextLine();
        }
-
+   
        Arrays.sort(arr);
        
        for(int j=0;j<a;j++){
