@@ -13,8 +13,7 @@ public class qwerty {
     Arrays.sort(a);
 
     for(int j=0;j<=a.length;j++){
-        for(int z=a.length-1 ; z<=a.length;z--)
-        System.out.print(a[z]);
+        System.out.print(a[j]);
     }
 
     }
